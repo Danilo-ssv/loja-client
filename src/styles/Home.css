@@ -1,0 +1,20 @@
+.product-conteiner{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	border-radius: 15px;
+}
+.productBox{
+	padding: 15px;
+	min-height: 10em;
+	border-radius: 15px;
+	background-color: white;
+}
+.productBox:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.productBox .image{
+	margin: auto;
+	max-width: 250px;
+}

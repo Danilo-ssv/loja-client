@@ -1,0 +1,25 @@
+header{
+	padding-left: 2em;
+	padding-right: 2em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: gray;
+}
+.logo, .link{
+	text-decoration: none;
+	color: white;
+}
+.link{
+	padding-left: 10px;
+}
+.link:hover{
+	color: yellow;
+}
+
+.userPhoto{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: white;
+}
